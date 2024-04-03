@@ -1,0 +1,4 @@
+import pickle
+
+with open('linear_regression_model.pkl', 'rb') as file:
+    model = pickle.load(file)
